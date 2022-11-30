@@ -45,11 +45,11 @@
                 <label for="jenis_kelamin" class="d-block">Jenis Kelamin: </label>
                 <?php
                 if($data['jenis_kelamin'] == "Laki-laki"){
-                    echo "<label class='mx-2'><input type='radio' name='jenis_kelamin' value='laki-laki' checked='checked'> Laki-laki </label>";
-                    echo "<label class='mx-2'><input type='radio' name='jenis_kelamin' value='perempuan'> Perempuan </label>";
+                    echo "<label class='mx-2'><input type='radio' name='jenis_kelamin' value='Laki-laki' checked='checked'> Laki-laki </label>";
+                    echo "<label class='mx-2'><input type='radio' name='jenis_kelamin' value='Perempuan'> Perempuan </label>";
                 }else{
-                    echo "<input type='radio' name='jenis_kelamin' value='laki-laki'> Laki-laki";
-                    echo "<input type='radio' name='jenis_kelamin' value='perempuan' checked='checked'> Perempuan";
+                    echo "<label class='mx-2'><input type='radio' name='jenis_kelamin' value='Laki-laki'> Laki-laki </label>";
+                    echo "<label class='mx-2'><input type='radio' name='jenis_kelamin' value='Perempuan' checked='checked'> Perempuan </label>";
                 }
                 ?>
             </p>
