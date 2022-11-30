@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    margin: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../images/yggdrasill.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins';
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
