@@ -20,7 +20,7 @@
                 <a href="index.php" class="mt-4 mx-5 btn btn-danger"><< Back</a>
             </nav>
             <nav class="mx-5 d-flex justify-content-end">
-                <a href="form_simpan.php" class="btn btn-primary mt-4 mx-5">[+] Tambah</a>
+                <a href="form_simpan.php" class="btn btn-primary mt-4 mx-2">[+] Tambah</a>
             </nav>
         </nav>
 
@@ -62,10 +62,10 @@
                     echo "</tr>";
                 }
                 ?>
-
             </tbody>
             </table>
         </div>
+        <a href="report.php" class="btn btn-success mt-4 mx-2 d-flex justify-content-center">Download PDF</a>
     </div>
 </body>
 </html>
